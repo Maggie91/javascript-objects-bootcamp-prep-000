@@ -3,7 +3,7 @@ playlist['Taylor Swift'] = 'Shake it off' ;
 
 
 function updatePlaylist(playlist,  artistName, songTitle) {
-  playlist[artistName] = songTitle;
+  
 }
 
 /* alternatively use 
@@ -13,3 +13,5 @@ function updatePlaylist(playlist,  artistName, songTitle) {
    delete playlist[artistName];
    return playlist;
  }
+ 
+ /* note that delete playlist.artistName does not work here */
